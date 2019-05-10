@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/CorneileB/Sandbox/_apis/build/status/britzc.pipelines-go?branchName=master)](https://dev.azure.com/CorneileB/Sandbox/_build/latest?definitionId=3&branchName=master)
 
 # Contributing
 
