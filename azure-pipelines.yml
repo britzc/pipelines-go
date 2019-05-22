@@ -41,4 +41,4 @@ steps:
   workingDirectory: '$(modulePath)'
   displayName: 'Run tests'
 - template: sandbox.yml
-- script: echo: Sandbox Completed
+- script: echo Sandbox Completed
