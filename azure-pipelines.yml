@@ -40,3 +40,5 @@ steps:
 - script: go test -v ./...
   workingDirectory: '$(modulePath)'
   displayName: 'Run tests'
+- template: sandbox.yml
+- script: echo: Sandbox Completed
