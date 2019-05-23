@@ -41,12 +41,12 @@ steps:
   workingDirectory: '$(modulePath)'
   displayName: 'Run tests'
 - template: sandbox.yml
+  displayName: 'Calling Template'
   parameters:
     name: Linux
-  displayName: 'Calling Template'
 - template: sandbox.yml
+  displayName: 'Calling Template'
   parameters:
     name: Windows
-  displayName: 'Calling Template'
 - script: echo Sandbox Completed
   displayName: 'Completion Step'
