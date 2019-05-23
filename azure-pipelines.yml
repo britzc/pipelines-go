@@ -41,11 +41,9 @@ steps:
   workingDirectory: '$(modulePath)'
   displayName: 'Run tests'
 - template: sandbox.yml
-  displayName: 'Calling Template'
   parameters:
     name: Linux
 - template: sandbox.yml
-  displayName: 'Calling Template'
   parameters:
     name: Windows
 - script: echo Sandbox Completed
