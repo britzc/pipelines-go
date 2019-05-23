@@ -44,5 +44,9 @@ steps:
   parameters:
     name: Linux
   displayName: 'Calling Template'
+- template: sandbox.yml
+  parameters:
+    name: Windows
+  displayName: 'Calling Template'
 - script: echo Sandbox Completed
   displayName: 'Completion Step'
