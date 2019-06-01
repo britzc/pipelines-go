@@ -21,9 +21,6 @@ variables:
   GOPATH: '$(system.defaultWorkingDirectory)/gopath' # Go workspace path
   modulePath: '$(GOPATH)/src/github.com/$(build.repository.name)' # Path to the module's code
   
-parameters:
-  spark: ''
-  
 steps:
 - script: |
     mkdir -p '$(GOBIN)'
