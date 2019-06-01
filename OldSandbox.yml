@@ -1,7 +1,0 @@
-parameters:
-  name: ''
-steps:
-- script: echo Hello World
-  displayName: 'Calling Hello World'
-- script: echo ${{ parameters.name }}
-  displayName: 'Calling ${{ parameters.name }}'
